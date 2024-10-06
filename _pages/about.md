@@ -11,7 +11,7 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 
 # Educations
 
-<div style="width: 100%;">
+<!-- <div style="width: 100%;">
   <span style="float: left;">National Astronomical Observatories, CAS</span>
   <span style="float: right;">2018 Sep - 2023 Jun</span>
 </div>
@@ -27,7 +27,13 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 <div style="width: 100%;">
   <span style="float: left;">*Bachelor in Physics*</span>
   <span style="float: right;">Dalian, China</span>
-</div>
+</div> -->
+
+| National Astronomical Observatories, CAS | <div style="text-align: right;">2018 Sep - 2023 Jun</div> |
+| National Astronomical Observatories, CAS | <div style="text-align: right;">2018 Sep - 2023 Jun</div> |
+
+| National Astronomical Observatories, CAS | <div style="text-align: right;">2018 Sep - 2023 Jun</div> |
+| National Astronomical Observatories, CAS | <div style="text-align: right;">2018 Sep - 2023 Jun</div> |
 
 # Employments
 2024 Apr - present, Research Assistant in CSST Scientific Application Group, NAOC, Beijing, China
