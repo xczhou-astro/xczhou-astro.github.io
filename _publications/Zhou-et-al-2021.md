@@ -14,7 +14,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2021-03
+date: 2021-03-01
 venue: 'Astrophysical Journal'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://iopscience.iop.org/article/10.3847/1538-4357/abda3e'
