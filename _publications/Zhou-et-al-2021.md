@@ -1,5 +1,5 @@
 ---
-title: Spectroscopic and Photometric Redshift Estimation by Neural Networks for the China Space Station Optical Survey (CSS-OS)
+title: "Spectroscopic and Photometric Redshift Estimation by Neural Networks for the China Space Station Optical Survey (CSS-OS)"
 authors:
     - "Xingchen Zhou"
     - "Yan Gong"
