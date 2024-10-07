@@ -44,21 +44,31 @@
       </div>
     {% endif %}
 
-    <h3>{{ post.title }}</h3>
-  <p>
-    {% if post.authors %}
-      <strong>Authors:</strong> {{ post.authors | join: ", " }}<br />
-    {% endif %}
-    {% if post.venue %}
-      <strong>Venue:</strong> {{ post.venue }}<br />
-    {% endif %}
-    {% if post.date %}
-      <strong>Date:</strong> {{ post.date | date: "%B %Y" }}<br />
-    {% endif %}
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank">Read the paper</a><br />
-    {% endif %}
-  </p>
+      <h3>{{ post.title }}</h3>
+      <p>
+        {% if post.authors %}
+          <strong>Authors:</strong>
+          {% for author in post.authors %}
+            {% if author == "Xingchen Zhou" %}
+              <strong>{{ author }}</strong>
+            {% else %}
+              {{ author }}
+            {% endif %}
+            {% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+          <br />
+        {% endif %}
+        {% if post.venue %}
+          <strong>Venue:</strong> {{ post.venue }}<br />
+        {% endif %}
+        {% if post.date %}
+          <strong>Date:</strong> {{ post.date | date: "%B %Y" }}<br />
+        {% endif %}
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" target="_blank">Read the paper</a><br />
+        {% endif %}
+      </p>
+    
 
     
     <!-- {% if post.read_time %}
