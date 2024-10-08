@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Research"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-## Work 1
+# Work 1
 
 Details about work 1
 
