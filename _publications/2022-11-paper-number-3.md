@@ -14,7 +14,7 @@ category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-11-01
-venue: 'Research in Astronomy and Astrophysics'
+Journal: 'Research in Astronomy and Astrophysics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://iopscience.iop.org/article/10.1088/1674-4527/ac9578'
 readurl: 'https://xczhou-astro.github.io/Works/#work2'

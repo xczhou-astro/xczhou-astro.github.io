@@ -6,8 +6,10 @@ collection: portfolio
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
 
-# Work 1
-aaa
+# Redshift Estimation
 
-# work 2
-aaaa
+## Work 1
+detail of work 1
+
+## Work 2
+detail of work 2

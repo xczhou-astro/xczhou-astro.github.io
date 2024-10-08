@@ -27,7 +27,7 @@
       </div>
     {% endif %}
 
-      <h2>{{ post.title }}</h2>
+      <h1>{{ post.title }}</h1>
       <p>
         {% if post.authors %}
           <em>Authors:</em>
@@ -41,8 +41,8 @@
           {% endfor %}
           <br />
         {% endif %}
-        {% if post.venue %}
-          <em>Venue:</em> {{ post.venue }}<br />
+        {% if post.Journal %}
+          <em>Journal:</em> {{ post.Journal }}<br />
         {% endif %}
         {% if post.date %}
           <em>Date:</em> {{ post.date | date: "%B %Y" }}<br />
