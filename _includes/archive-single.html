@@ -46,7 +46,7 @@
         {% endif %}
         {% if post.year %}
           <!-- <em>Date:</em> {{ post.date | date: %Y" }}<br /> -->
-          <em>Year:</em> {{post.year}}<br />
+          <em>Year:</em> {{post.year | date: "%Y"}}<br />
         {% endif %}
         {% if post.paperurl and post.readurl %}
         <p><a href="{{ post.paperurl }}"> Download Paper</a> | <a href="{{ post.readurl }}">Read More</a></p>
