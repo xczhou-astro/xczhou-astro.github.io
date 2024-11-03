@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-# Work 1
+# galaxyEmulator
 
-Details about work 1
+We build a wrapper
 
 ## Work 2
 

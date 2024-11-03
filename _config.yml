@@ -82,10 +82,10 @@ publication_category:
     title: 'First Author Papers'
   nonfirst:
     title: 'Collaborations'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  # manuscripts:
+  #   title: 'Journal Articles'    
+  # conferences:
+  #   title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
