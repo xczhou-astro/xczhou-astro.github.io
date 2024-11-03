@@ -20,4 +20,4 @@ Our code is publicly available at [Github](https://github.com/xczhou-astro/galax
 
 # DESI Photo-z Catalogue
 
-DESI Legacy Surveys encompassing three surveys, MzLS, DECaLs and BASS, is the foundation for spectroscopic survey
+DESI Legacy Surveys encompassing three surveys, MzLS, DECaLs and BASS, are the foundation of DESI spectroscopic survey. The photometric redshifts wv
