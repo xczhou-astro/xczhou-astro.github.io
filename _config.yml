@@ -78,8 +78,10 @@ author:
 #   books:
 #     title: 'Books'
 
-  First:
+  first:
     title: 'First Author Papers'
+  nonfirst:
+    title: 'Collaborations'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
