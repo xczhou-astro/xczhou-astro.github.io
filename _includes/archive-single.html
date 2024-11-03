@@ -45,7 +45,7 @@
           <em>Journal:</em> {{ post.Journal }}<br />
         {% endif %}
         {% if post.date %}
-          <em>Date:</em> {{ post.date | date: "%B %Y" }}<br />
+          <em>Date:</em> {{ post.date | date: %Y" }}<br />
         {% endif %}
         {% if post.paperurl and post.readurl %}
         <p><a href="{{ post.paperurl }}"> Download Paper</a> | <a href="{{ post.readurl }}">Read More</a></p>

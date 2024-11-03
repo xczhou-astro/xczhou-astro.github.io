@@ -20,5 +20,4 @@ Our code is publicly available at [Github](https://github.com/xczhou-astro/galax
 
 # DESI Photo-z Catalogue
 
-Details about work 2
-
+DESI Legacy Surveys serve as 
