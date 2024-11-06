@@ -15,13 +15,13 @@ Redshift is a measurement of distance in cosmological studies, and is a fundamen
 
 Conventionally, we utilize template fitting to estimate the redshifts. This approach finds the redshifts by minimizing the \\(\chi^2\\) between the photometric measurements and values derived from templates. The completeness of templates deeply affects the accuracy of estimated redshifts from this approach, since some galaxies probably cannot be represented by any template in the template list. 
 
-Another method arises since the proposation of machine learning (ML). A relation between photometric measurements and redshifts can be empirically derived using a substantial amount of data, and can be used for estimating photo-\\(z\\)s for other data. Currently, deep learning algorithm are widely employed in this field, since its flexibility and capability compared to other machine learning algorithms. And most importantly, deep learning can process other types of data except for photometric measurements, including galaxy images, thanks to the development and evolution of convolutional neural networks (CNN). 
+Another method arises since the proposation of machine learning (ML). A relation between photometric measurements and redshifts can be empirically derived using a substantial amount of data, and can be used for estimating photo-\\(z\\)s for other data. Currently, deep learning algorithms or neural networks are widely employed in this field, since its flexibility and capability compared to other machine learning algorithms. And most importantly, deep learning can process other types of data except for photometric measurements, including galaxy images, thanks to the development and evolution of convolutional neural networks (CNN). Due to the flexibility for data and high accuracy for estimation, the algorithm is perfect for photo-\\(z\\) estimation pipeline for wide and deep surveys like Euclid, Euclid, LSST, CSST and other ongoing or planned photometric surveys. 
 
 
 
 # Foreground Removal for CO Line Intensity Mapping
 
-# Redshift Estimation for Chinese Space Station Telescope
+# Redshift Estimation for CSST Slitless Spectroscopic Survey
 
 # DESI Photo-z Catalogue
 
@@ -29,7 +29,8 @@ DESI Legacy Surveys, encompassing three different surveys, MzLS, DECaLS and BASS
 
 In this work, we train the BNNs built upon Multiplicative Normalizing Flows (MNF, [Github](https://github.com/janosh/tf-mnf)) utilizing galaxy images in 3 optical bands from DESI Legacy Surveys (DESI LS) and 2 infrared bands from Wide-field Infrared Survey Explorer (WISE) and corresponding spectroscopic redshifts from the DESI early data release (DESI-EDR), leveraging the high quality and accurate measurements of spec-\\(z\\)s by DESI.
 
-We found that categorizing the sources into different groups based on their charateristics and estimating their photo-\\(z\\)s within their groups separately provides enhanced accuracy compared to estimating them collectively. Here we categorize the sources into four groups: Bright Galaxy Sample (BGS), Luminous Red Galaxies (LRG), Emission Line Galaxies (ELG) and a group including the remaining sources, referred as NON, based on target selections of DESI. The target selections are neccesary for ongoing and planned spectroscopic surveys, since the spec-\\(z\\)s cannot be accurately measured for all sources in a limited exposure time. Target selections are utilized to select the certain sources with obvious spectroscopic features for straightforward spec-\\(z\\) measurements, and they are performed using photometric measurements. DESI LS are utilized for target selections of DESI. Therefore, we categorize the sources into four groups based on endeavors of DESI target selections.  
+We found that categorizing the sources into different groups based on their charateristics and estimating their photo-\\(z\\)s within their groups separately provides enhanced accuracy compared to estimating them collectively. Here we categorize the sources into four groups: Bright Galaxy Sample (BGS), Luminous Red Galaxies (LRG), Emission Line Galaxies (ELG) and a group including the remaining sources, referred as NON, based on target selections of DESI. The target selections are neccesary for ongoing and planned spectroscopic surveys, since the spec-\\(z\\)s cannot be accurately measured for all sources in a limited exposure time. Target selections are utilized to select the certain sources with obvious spectroscopic features for straightforward spec-\\(z\\) measurements, and they are performed using photometric measurements. DESI LS are utilized for target selections of DESI. Therefore, we categorize the sources into four groups based on endeavors of DESI target selections.
+
 With outliers defined as \\(|\Delta z| > 0.15(1 + z_{\rm true})\\), accuracy as \\(\sigma_{\rm NMAD}\\), mean bias \\(\overline{\Delta z}\\) and mean uncertainty \\(\overline{E}\\), we obtain the following results for four groups of sources: 
 
 ![BGS](../figures/BGS_MNF.png)![LRG](../figures/LRG_MNF.png)  
