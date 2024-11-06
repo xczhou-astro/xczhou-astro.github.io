@@ -11,7 +11,9 @@ redirect_from:
 
 # Photometric Redshifts for Chinese Space Station Telescope
 
-Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can 
+Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can be estimated from photometric measurements including magnitudes, fluxes, colors and others. The accuracy of photo-\\(z\\) is determined by the number and wavelength coverage of the associated filters, for example, sources in the famous COSMOS field have the most accurate photo-\\(z\\)s, since they are observed by many surveys, using filters from ultraviolet to infrared. On the other hand, the employed methods can also affect the accuracy, and they are actively being studied and developed to increase the accuracy.
+
+Conventionally, we utilize template fitting to estimate the redshifts. This approach finds the redshifts by minimizing the \\(\chi^2\\) between the photometric measurements and templates. 
 
 # Foreground Removal for CO Line Intensity Mapping
 
@@ -25,6 +27,7 @@ In this work, we train the BNNs built upon Multiplicative Normalizing Flows (MNF
 
 We found that categorizing the sources into different groups based on their charateristics and estimating their photo-\\(z\\)s within their groups separately provides enhanced accuracy compared to estimating them collectively. Here we categorize the sources into four groups: Bright Galaxy Sample (BGS), Luminous Red Galaxies (LRG), Emission Line Galaxies (ELG) and a group including the remaining sources, referred as NON, based on target selections of DESI. The target selections are neccesary for ongoing and planned spectroscopic surveys, since the spec-\\(z\\)s cannot be accurately measured for all sources in a limited exposure time. Target selections are utilized to select the certain sources with obvious spectroscopic features for straightforward spec-\\(z\\) measurements, and they are performed using photometric measurements. DESI LS are utilized for target selections of DESI. Therefore, we categorize the sources into four groups based on endeavors of DESI target selections.  
 With outliers defined as \\(|\Delta z| > 0.15(1 + z_{\rm true})\\), accuracy as \\(\sigma_{\rm NMAD}\\), mean bias \\(\overline{\Delta z}\\) and mean uncertainty \\(\overline{E}\\), we obtain the following results for four groups of sources: 
+
 ![BGS](../figures/BGS_MNF.png)![LRG](../figures/LRG_MNF.png)  
 ![ELG](../figures/ELG_MNF.png)![NON](../figures/NON_MNF.png)
 
