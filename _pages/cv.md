@@ -13,7 +13,9 @@ redirect_from:
 
 Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can be estimated from photometric measurements including magnitudes, fluxes, colors and others. The accuracy of photo-\\(z\\) is determined by the number and wavelength coverage of the associated filters, for example, sources in the famous COSMOS field have the most accurate photo-\\(z\\)s, since they are observed by many surveys, using filters from ultraviolet to infrared. On the other hand, the employed methods can also affect the accuracy, and they are actively being studied and developed to increase the accuracy.
 
-Conventionally, we utilize template fitting to estimate the redshifts. This approach finds the redshifts by minimizing the \\(\chi^2\\) between the photometric measurements and templates. 
+Conventionally, we utilize template fitting to estimate the redshifts. This approach finds the redshifts by minimizing the \\(\chi^2\\) between the photometric measurements and values derived from templates. The completeness of templates deeply affects the accuracy of estimated redshifts from this approach, since some galaxies probably cannot be represented by any template in the template list. 
+
+Another method arises since the proposation of machine learning (ML). A relation between photometric measurements and redshifts can be empirically derived using a substantial amount of data, and can be used for estimating photo-\\(z\\) for other data. 
 
 # Foreground Removal for CO Line Intensity Mapping
 
