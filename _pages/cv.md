@@ -23,7 +23,7 @@ In this work, we investigate the redshift accuracy can be achieved from data exp
 
 From these networks, the estimation for about 10,000 data produces results as follows:
 
-We notice that the outliers defined as \(\|\Delta z\| > 0.15(1 + z_{\rm true})\) are indeed reduced from image data compared to from photometric measurements, suggesting that the images possess more information compared to photometry, and can be extracted by CNN to enhance the outliers. Additionally, the Hybrid and Hybrid transfer further enhance the performance, especially for Hybrid transfer. 
+We notice that the outliers defined as \\(\vert\Delta z\vert > 0.15(1 + z_{\rm true})\\) are indeed reduced from image data compared to from photometric measurements, suggesting that the images possess more information compared to photometry, and can be extracted by CNN to enhance the outliers. Additionally, the Hybrid and Hybrid transfer further enhance the performance, especially for Hybrid transfer. 
 
 In some cosmological studies, uncertainties are of the same importance to the redshift values. Therefore, in another work, we convert the networks mentioned before to Bayesian neural networks (BNNs). The BNNs employ specific distributions to represent the weights and biases, and the outputs are Gaussian distributions created by estimated redshifts and uncertainties. This network can account for both epistemic and aleatoric uncertainties. The former is from the network model, and the latter is from the instrinsic corruption of data. Additionally, the estimated uncertainties need to be calibrated, since they may be over- or under-estimated, not obey the statistical principle. Finally, BNNs built upon flipout approach can achieve the results as follows:
 
