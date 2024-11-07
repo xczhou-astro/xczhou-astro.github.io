@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# Photometric Redshifts for Chinese Space Station Telescope
+## Photometric Redshifts for Chinese Space Station Telescope
 
 Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can be estimated from photometric measurements including magnitudes, fluxes, colors and others. The accuracy of photo-\\(z\\) is determined by the number and wavelength coverage of the associated filters, for example, sources in the famous COSMOS field have the most accurate photo-\\(z\\)s, since they are observed by many surveys, using filters from ultraviolet to infrared. On the other hand, the employed methods can also affect the accuracy, and they are actively being studied and developed to increase the accuracy.
 
@@ -30,18 +30,18 @@ In some cosmological studies, uncertainties are of the same importance to the re
 The metrics follow similar trend to the conventional networks, but with the accuracy decreased.
 
 
-# Foreground Removal for CO Line Intensity Mapping
+## Foreground Removal for CO Line Intensity Mapping
 
 Line Intensity Mapping (LIM) is a new probe for cosmological studies. This probe does not require resolutions from each source, only integrating the line emission from ISM, making it cheaper compared to other survey instruments. Several emission lines can be tracers, such as CII, CO and 21cm. However, the foreground and interloper emissions are the main obstacles against the cosmological constraints. Foreground removal methods are under active development, including blind ones, like Principal Components Analysis (PCA) and Independent Components Analysis (ICA), and empirical ones like deep learning algorithms. PCA can remove the foreground components that is correlated with frequencies. However, due to the beam effects of instruments that is also correlated, this method will introduce some deviations to the true power spectra in large and small scales, hindering the cosmological constraints. 
 
 In this work, we take CO emission as an example, employing deep learning to investigate the beam effects on PCA foreground removal. The data are simulated based on a N-body simulations, and employ the CO luminosity model to simulate the intensity maps of CO. Two CO models, providing middle and low CO luminosity, are considered. For foreground, we take into account several components, including dust, synchrotron, spinning dust, free-free and CMB Anisotropy, provided by PySM3. We train a simple generative model, U-Net, to remove the foregrounds and beam effects from CO maps preprocessed by PCA. The results demonstrate that the deviations for power spectra are successfully calibrated regardless the number of components that PCA subtracts, as follows:
 
 
-# Redshift Estimation for CSST Slitless Spectroscopic Survey
+## Redshift Estimation for CSST Slitless Spectroscopic Survey
 
 
 
-# DESI Photo-z Catalogue
+## DESI Photo-z Catalogue
 
 DESI Legacy Surveys, encompassing three different surveys, MzLS, DECaLS and BASS, are the foundations of DESI spectroscopic survey. Since accurate spectroscopic redshifts cannot be measured by all galaxies, but only a fraction of them, the photometric redshifts (photo-\\(z\\)s) are still necessary for astronomical and cosmological studies. Commonly, photo-\\(z\\)s can be estimated from photometric measurements in several bands, for example from magnitudes and colors. However, the emergence of convolutional network (CNN) provides us another routine by directly estimating photo-\\(z\\)s from imaging data. This approach can naturally incorporate the morphological informations from galaxy images to enhance the accuracy of redshift estimations. Furthermore, due to the equal importance of uncertainties, CNN can be built in Bayesian framework as Bayesian neural networks (BNN) to account for the epistemic uncertainties from network models and aleatoric uncertainties from data.
 
@@ -60,7 +60,7 @@ We notice good correlations between the reduced 2d positions and redshifts for B
 
 Furthermore, we analyze the photo-\\(z\\) accuracy with respect to galaxy morphological classifications. The classifications are produced in photometry measurements by in model fitting by Tractor. The following figure displays the distribution of half-light radius for four classifications and the mean bias with respect to the radius. This analysis demonstrates that larger radius offers higher precision, as more features can be utilized for sources with larger radius. And SER commonly has more large radius, rendering higher accuracy, followed by DEV, EXP and REX. 
 
-# galaxyEmulator
+## galaxyEmulator
 
 Galaxy can be emulated using magneto-hydrodynamical simulations by assigning each particle with a SED using radiative transfer code, instead of
 adopting empirical method, such as Halo occupation distributions (HODs).  
