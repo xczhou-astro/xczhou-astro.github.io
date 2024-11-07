@@ -32,7 +32,7 @@ The metrics follow similar trend to the conventional networks, but with the accu
 
 # Foreground Removal for CO Line Intensity Mapping
 
-
+Intensity mapping 
 
 # Redshift Estimation for CSST Slitless Spectroscopic Survey
 
@@ -44,7 +44,7 @@ In this work, we train the BNNs built upon Multiplicative Normalizing Flows (MNF
 
 We found that categorizing the sources into different groups based on their charateristics and estimating their photo-\\(z\\)s within their groups separately provides enhanced accuracy compared to estimating them collectively. Here we categorize the sources into four groups: Bright Galaxy Sample (BGS), Luminous Red Galaxies (LRG), Emission Line Galaxies (ELG) and a group including the remaining sources, referred as NON, based on target selections of DESI. The target selections are neccesary for ongoing and planned spectroscopic surveys, since the spec-\\(z\\)s cannot be accurately measured for all sources in a limited exposure time. Target selections are utilized to select the certain sources with obvious spectroscopic features for straightforward spec-\\(z\\) measurements, and they are performed using photometric measurements. DESI LS are utilized for target selections of DESI. Therefore, we categorize the sources into four groups based on endeavors of DESI target selections.
 
-With outliers defined as \\(|\Delta z| > 0.15(1 + z_{\rm true})\\), accuracy as \\(\sigma_{\rm NMAD}\\), mean bias \\(\overline{\Delta z}\\) and mean uncertainty \\(\overline{E}\\), we obtain the following results for four groups of sources: 
+With outliers defined as \\(\vert\Delta z\vert > 0.15(1 + z_{\rm true})\\), accuracy as \\(\sigma_{\rm NMAD}\\), mean bias \\(\overline{\Delta z}\\) and mean uncertainty \\(\overline{E}\\), we obtain the following results for four groups of sources: 
 
 ![BGS](../figures/BGS_MNF.png)![LRG](../figures/LRG_MNF.png)  
 ![ELG](../figures/ELG_MNF.png)![NON](../figures/NON_MNF.png)
