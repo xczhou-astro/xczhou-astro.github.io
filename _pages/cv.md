@@ -27,7 +27,7 @@ For consideration for uncertainties, we convert the networks to Bayesian neural 
 
 ![Result](../figures/photo-z_CSST/result_BNN_photoz_CSST.jpg)
 
-Associated codes are publicly available at [Github](https://github.com/xczhou-astro/CSST_photo_z_dl)
+Associated codes are publicly available at [Github](https://github.com/xczhou-astro/CSST_photo_z_dl).
 
 ## Foreground Removal for CO Line Intensity Mapping
 
@@ -41,7 +41,14 @@ The calibration results by U-Net from different number of components PCA subtrac
 
 ## Redshift Estimation for CSST Slitless Spectroscopic Survey
 
+We build a 1d-convolutional neural network to estimate the spectroscopic redshifts from slitless spectra simulated based on DESI Legacy Surveys (DESI LS), DESI Early Data Release (DESI-EDR) and Baryon Os242 cillation Spectroscopic Survey (BOSS). The simulation software is publicly available at [GitLab](https://csst-tb.bao.ac.cn/code/zhangxin/sls_1d_spec). Two 2d spectral images and extracted 1d-spectra are displayed as follows:
 
+![spectra](../figures/slitless_spec-z_CSST/2d_spectra_CSST.jpg)
+![spectra](../figures/slitless_spec-z_CSST/sls_examples.jpg)
+
+Results for spectroscopic redshifts from slitless spectra:
+
+![result](../figures/slitless_spec-z_CSST/result_spec-z.jpg)
 
 ## DESI Photo-z Catalogue
 
