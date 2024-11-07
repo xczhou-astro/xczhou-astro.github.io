@@ -32,9 +32,14 @@ The metrics follow similar trend to the conventional networks, but with the accu
 
 # Foreground Removal for CO Line Intensity Mapping
 
-Intensity mapping 
+Line Intensity Mapping (LIM) is a new probe for cosmological studies. This probe does not require resolutions from each source, only integrating the line emission from ISM, making it cheaper compared to other survey instruments. Several emission lines can be tracers, such as CII, CO and 21cm. However, the foreground and interloper emissions are the main obstacles against the cosmological constraints. Foreground removal methods are under active development, including blind ones, like Principal Components Analysis (PCA) and Independent Components Analysis (ICA), and empirical ones like deep learning algorithms. PCA can remove the foreground components that is correlated with frequencies. However, due to the beam effects of instruments that is also correlated, this method will introduce some deviations to the true power spectra in large and small scales, hindering the cosmological constraints. 
+
+In this work, we take CO emission as an example, employing deep learning to investigate the beam effects on PCA foreground removal. The data are simulated based on a N-body simulations, and employ the CO luminosity model to simulate the intensity maps of CO. Two CO models, providing middle and low CO luminosity, are considered. For foreground, we take into account several components, including dust, synchrotron, spinning dust, free-free and CMB Anisotropy, provided by PySM3. We train a simple generative model, U-Net, to remove the foregrounds and beam effects from CO maps preprocessed by PCA. The results demonstrate that the deviations for power spectra are successfully calibrated regardless the number of components that PCA subtracts, as follows:
+
 
 # Redshift Estimation for CSST Slitless Spectroscopic Survey
+
+
 
 # DESI Photo-z Catalogue
 
