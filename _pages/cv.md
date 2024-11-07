@@ -11,7 +11,13 @@ redirect_from:
 
 ## Photometric Redshifts for Chinese Space Station Telescope
 
-Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can be estimated from photometric measurements including magnitudes, fluxes, colors and others. The accuracy of photo-\\(z\\) is determined by the number and wavelength coverage of the associated filters, for example, sources in the famous COSMOS field have the most accurate photo-\\(z\\)s, since they are observed by many surveys, using filters from ultraviolet to infrared. On the other hand, the employed methods can also affect the accuracy, and they are actively being studied and developed to increase the accuracy.
+We develop a redshift estimation pipeline using deep learning algorithms for Chines Space Station Telescope (CSST). This pipeline utilize multi-layer perceptron (MLP), convolutional neural network (CNN) and combination of these two networks, called Hybrid, to produce redshifts from photometric measurements, galaxy images, and combination of the two datasets. The architecure of our networks are as follows:
+
+![Result](../figures/Architecture_for_photoz.pdf)
+
+And for further improvement, transfer learning technique is employed for Hybrid network, leveraging the features tailored to photo-\\(z\\). This network is referred as Hybrid transfer:
+
+<!-- Redshift is a measurement of distance in cosmological studies, and is a fundamental quantity for galaxy. The most accurate redshifts are measured by analyzing the spectra. However, spectroscopic observation are time consuming, therefore, cannot cover the footprints of current photometric surveys. Under such circumstances, photometric redshifts (Photo-\\(z\\)), although less accurate, are inevitable for most cosmological studies. Photo-\\(z\\) can be estimated from photometric measurements including magnitudes, fluxes, colors and others. The accuracy of photo-\\(z\\) is determined by the number and wavelength coverage of the associated filters, for example, sources in the famous COSMOS field have the most accurate photo-\\(z\\)s, since they are observed by many surveys, using filters from ultraviolet to infrared. On the other hand, the employed methods can also affect the accuracy, and they are actively being studied and developed to increase the accuracy.
 
 Conventionally, we utilize template fitting to estimate the redshifts. This approach finds the redshifts by minimizing the \\(\chi^2\\) between the photometric measurements and values derived from templates. The completeness of templates deeply affects the accuracy of estimated redshifts from this approach, since some galaxies probably cannot be represented by any template in the template list. 
 
@@ -27,7 +33,7 @@ We notice that the outliers defined as \\(\vert\Delta z\vert > 0.15(1 + z_{\rm t
 
 In some cosmological studies, uncertainties are of the same importance to the redshift values. Therefore, in another work, we convert the networks mentioned before to Bayesian neural networks (BNNs). The BNNs employ specific distributions to represent the weights and biases, and the outputs are Gaussian distributions created by estimated redshifts and uncertainties. This network can account for both epistemic and aleatoric uncertainties. The former is from the network model, and the latter is from the instrinsic corruption of data. Additionally, the estimated uncertainties need to be calibrated, since they may be over- or under-estimated, not obey the statistical principle. Finally, BNNs built upon flipout approach can achieve the results as follows:
 
-The metrics follow similar trend to the conventional networks, but with the accuracy decreased.
+The metrics follow similar trend to the conventional networks, but with the accuracy decreased. -->
 
 
 ## Foreground Removal for CO Line Intensity Mapping
