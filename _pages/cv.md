@@ -68,7 +68,7 @@ Correlations exist between the reduced 2d positions and redshifts for BGS and LR
 
 Note that our results are limited by the data size of DESI-EDR. With future releases, we plan to refine and update our catalogue. 
 
-## Target Selection for MUltiplexed Spectroscopic Telescope (MUST)
+## Preliminary Target Selection for MUltiplexed Spectroscopic Telescope (MUST)
 
 
 
