@@ -51,8 +51,7 @@ We found that categorizing the sources into different groups based on their char
 
 With outliers defined as \\(\vert\Delta z\vert > 0.15(1 + z_{\rm true})\\), accuracy as \\(\sigma_{\rm NMAD}\\), mean bias \\(\overline{\Delta z}\\) and mean uncertainty \\(\overline{E}\\), we obtain the following results for four groups of sources: 
 
-![BGS](../figures/BGS_MNF.png)![LRG](../figures/LRG_MNF.png)  
-![ELG](../figures/ELG_MNF.png)![NON](../figures/NON_MNF.png)
+![Result](../figures/DESI_z_result.jpg)
 
 And we employ UMAP to analyze the deeper reasons for the distinct behaviors for these groups. The UMAP is created using the 5 magnitudes and half light radius to mimic the method of deriving redshifts from imaging data. They are displayed below:
 
