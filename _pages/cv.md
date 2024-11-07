@@ -17,6 +17,17 @@ Conventionally, we utilize template fitting to estimate the redshifts. This appr
 
 Another method arises since the proposation of machine learning (ML). A relation between photometric measurements and redshifts can be empirically derived using a substantial amount of data, and can be used for estimating photo-\\(z\\)s for other data. Currently, deep learning algorithms or neural networks are widely employed in this field, since its flexibility and capability compared to other machine learning algorithms. And most importantly, deep learning can process other types of data except for photometric measurements, including galaxy images, thanks to the development and evolution of convolutional neural networks (CNN). Due to the flexibility for data and high accuracy for estimation, the algorithm is perfect for photo-\\(z\\) estimation pipeline for wide and deep surveys like Euclid, Euclid, LSST, CSST and other ongoing or planned photometric surveys. 
 
+Chinese Space Station Telescope (CSST) is a wide and deep survey instrument. Due to the design of focal plane, it can simultaneously perform photometric and slitless spectroscopic surveys. The photometric surveys are conducted by 7 filters, NUV, u, g, r, i, z and y, covering from near-ultraviolet to near-infrared wavelength. 
+
+In this work, we investigate the redshift accuracy can be achieved from data expected to be observed by CSST. The data are simulated based on HST observations, since they are both space telescope, sharing similar instrumental effects. Galaxy images are firstly generated, and photometies are performed using aperture photometry method by SExtractor. We utilize multi-layer perceptron (MLP) and convolutional neural networks (CNN) to estimate redshift from photometric measurements and images respectively. In addition, we also combine the two networks inputting both datasets, and this network is named as Hybrid. To test if further improvements can be achieved, we employ transfer learning technique to transfer the well-trained MLP and CNN to Hybrid with weights fixed. This network is named as Hybrid transfer, leveraging the features learned by MLP and CNN that are tailored for redshift estimations. The architecture of MLP, CNN and Hybrid is illustrated following:
+
+From these networks, the estimation for about 10,000 data produces results as follows:
+
+We notice that the outliers defined as \\(|\Delta z| > 0.15(1 + z_{\rm true})\\) are indeed reduced from image data compared to from photometric measurements, suggesting that the images possess more information compared to photometry, and can be extracted by CNN to enhance the outliers. Additionally, the Hybrid and Hybrid transfer further enhance the performance, especially for Hybrid transfer. 
+
+In some cosmological studies, uncertainties are of the same importance to the redshift values. Therefore, in another work, we convert the networks mentioned before to Bayesian neural networks (BNNs). The BNNs employ specific distributions to represent the weights and biases, and the outputs are Gaussian distributions created by estimated redshifts and uncertainties. This network can account for both epistemic and aleatoric uncertainties. The former is from the network model, and the latter is from the instrinsic corruption of data. BNNs built upon flipout approach can achieve the results as follows:
+
+
 
 
 # Foreground Removal for CO Line Intensity Mapping
