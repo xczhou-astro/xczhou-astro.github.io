@@ -62,7 +62,7 @@ Results for these four groups:
 
 Additionally, UMAP is employed to investigate the deeper cause for the distinct behaviors for these groups:
 
-![umap](../figures/DESI_EDR_feature_space.png)
+![umap](../figures/DESI_photo-z/DESI_EDR_feature_space.png)
 
 Correlations exist between the reduced 2d positions and redshifts for BGS and LRG. Contrary, correlations are less pronouced for ELG. Interestingly, NON is divided to 2 parts, with one resembling the ELG, and the other one having good correlations. These two parts can be divided using \\(z < 21.3\\). Finally, we create a new photo-z catalogue for BGS, LRG and NON with \\(z < 21.3\\), considering the performance. This catalogue is publicly available at [here](https://pan.cstcloud.cn/web/share.html?hash=hUWwk1QTSjo). 
 
