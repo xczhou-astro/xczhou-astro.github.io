@@ -70,7 +70,7 @@ Note that our results are limited by the data size of DESI-EDR. With future rele
 
 ## Preliminary Target Selection for MUltiplexed Spectroscopic Telescope (MUST)
 
-
+With my knowledge in photometric and spectroscopic data analysis, I have been working on preliminary target selection for MUST, a stage-V spectroscopic instrument led by Tsinghua University. I am currently in charge of Emission Line Galaxies (ELG) and high-redshift Lyman Break Galaxies (LBG) under the observational conditions of MUST. Additionally, I calculate the galaxy bias for the capability of cosmological constraints. And currently, I am engaged in spectra simulation, using my knowledge from slitless spectra for CSST. 
 
 ## galaxyEmulator
 
