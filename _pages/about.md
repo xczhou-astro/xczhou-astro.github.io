@@ -26,3 +26,4 @@ Language: English (Proficient); Chinese (Native); Japanese (N2)
 # Research Interests
 Deep learning; Photometric Surveys; Spectroscopic Surveys; Galaxy Morphology
 
+<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" class='btn btn--green'>Download CV</a>
