@@ -150,4 +150,14 @@
   &--small {
     font-size: $type-size-7;
   }
+
+
+  &--green{
+    background-color: #28a745;
+    color: #fff;
+
+    &:hover {
+      background-color: mix(#000, #28a745, 20%);
+    }
+  }  
 }

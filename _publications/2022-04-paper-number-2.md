@@ -17,7 +17,7 @@ year: "2022"
 Journal: 'Monthly Notices of the Royal Astronomical Society'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: "https://academic.oup.com/mnras/article/512/3/4593/6552971"
-readurl: 'https://xczhou-astro.github.io/Works/#work2'
+readurl: 'https://xczhou-astro.github.io//research/#photometric-redshifts-for-chinese-space-station-telescope'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
