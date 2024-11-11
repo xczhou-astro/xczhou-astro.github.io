@@ -30,6 +30,6 @@ English (Proficient); Chinese (Native); Japanese (N2)
 * Spectroscopic data analysis  
 
 # Materials
-<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" target="_blank" class="btn btn--green">CV</a>
+<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/tree/master/myCV/Xingchen-Zhou-CV.pdf" target="_blank" class="btn btn--green">CV</a>
 
 <a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/research_statement/Research_Statement_Xingchen_Zhou.pdf" target="_blank" class="btn btn--green">Research Statement</a>
