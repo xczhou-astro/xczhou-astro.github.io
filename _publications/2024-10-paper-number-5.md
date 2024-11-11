@@ -22,7 +22,7 @@ year: "2024"
 Journal: 'The Astrophysical Journal (Accepted)'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://arxiv.org/abs/2407.13991'
-readurl: 'https://xczhou-astro.github.io//portfolio/'
+readurl: 'https://xczhou-astro.github.io//research/#redshift-estimation-for-csst-slitless-spectroscopic-survey'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

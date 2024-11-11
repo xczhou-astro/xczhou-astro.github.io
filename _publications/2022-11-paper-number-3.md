@@ -17,7 +17,7 @@ year: "2022"
 Journal: 'Research in Astronomy and Astrophysics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://iopscience.iop.org/article/10.1088/1674-4527/ac9578'
-readurl: 'https://xczhou-astro.github.io/Works/#work2'
+readurl: 'https://xczhou-astro.github.io//research/#photometric-redshifts-for-chinese-space-station-telescope'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

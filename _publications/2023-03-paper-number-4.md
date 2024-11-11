@@ -15,7 +15,7 @@ year: "2023"
 Journal: 'Monthly Notices of the Royal Astronomical Society'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://academic.oup.com/mnras/article/521/1/278/7055955'
-readurl: 'https://xczhou-astro.github.io/Works/#work2'
+readurl: 'https://xczhou-astro.github.io//research/#foreground-removal-for-co-line-intensity-mapping'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
