@@ -19,11 +19,18 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 2024 Apr - present, Research Assistant in CSST Scientific Application Group, NAOC, Beijing, China
 
 # Skills
-Programming: Python, TensorFlow, Keras, PyTorch (Skilled); C, C++ (Basic)
+**Programming**:  
+Python, TensorFlow, Keras, PyTorch (Skilled); C, C++ (Basic)
 
-Language: English (Proficient); Chinese (Native); Japanese (N2)
+**Language**:  
+English (Proficient); Chinese (Native); Japanese (N2)
 
 # Research Interests
-Deep learning; Photometric Surveys; Spectroscopic Surveys; Galaxy Morphology
+* Machine Learning and deep learning  
+* Photometric redshift estimations  
+* Galaxy morphologies  
+* Line intensity mapping  
+* Spectroscopic data analysis  
 
-<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" class='btn btn--green'>Download CV</a>
+<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" class='btn btn--green' download>Download CV</a>
+
