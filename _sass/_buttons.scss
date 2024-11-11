@@ -155,6 +155,9 @@
   &--green{
     background-color: #28a745;
     color: #fff;
+    width: 200px;
+    padding: 16px;
+    text-align: center;
 
     &:hover {
       background-color: mix(#000, #28a745, 20%);
