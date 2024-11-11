@@ -32,5 +32,5 @@ English (Proficient); Chinese (Native); Japanese (N2)
 * Line intensity mapping  
 * Spectroscopic data analysis  
 
-<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" class='btn btn--green' download>Download CV</a>
-
+<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/myCV/Xingchen-Zhou-CV.pdf" class='btn btn--green' download>CV</a>
+<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/research_statement/Research_Statement_Xingchen_Zhou.pdf" class='btn btn--green' download>Research Statement</a>
