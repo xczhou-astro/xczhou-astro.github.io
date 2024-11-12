@@ -32,4 +32,4 @@ English (Proficient); Chinese (Native); Japanese (N2)
 # Materials
 <a href="https://xczhou-astro.github.io/myCV/Xingchen-Zhou-CV.pdf" target="_blank" class="btn btn--green">CV</a>
 
-<a href="https://github.com/xczhou-astro/xczhou-astro.github.io/blob/master/research_statement/Research_Statement_Xingchen_Zhou.pdf" target="_blank" class="btn btn--green">Research Statement</a>
+<a href="https://xczhou-astro.github.io/research_statement/Research_Statement_Xingchen_Zhou.pdf" target="_blank" class="btn btn--green">Research Statement</a>
