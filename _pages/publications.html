@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <!-- New style rendering if publication categories are defined -->
-<!-- {% if site.publication_category %}
+{% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -22,48 +22,6 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %} -->
-
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign first_publications = site.publications | where: "first", true %}
-    {% assign nonfirst_publications = site.publications | where: "first", false %}
-    
-    {% assign title_shown = false %}
-    
-    {% for post in first_publications reversed %}
-      {% if post.category == category[0] %}
-        {% unless title_shown %}
-          <h2>{{ category[1].title }} - First Publications</h2><hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-        {% include archive-single.html %}
-      {% endif %}
-    {% endfor %}
-    
-    {% assign title_shown = false %}
-    
-    {% for post in nonfirst_publications reversed %}
-      {% if post.category == category[0] %}
-        {% unless title_shown %}
-          <h2>{{ category[1].title }} - Non-First Publications</h2><hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-        {% include archive-single.html %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% assign first_publications = site.publications | where: "first", true %}
-  {% assign nonfirst_publications = site.publications | where: "first", false %}
-  
-  {% for post in first_publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-  
-  {% for post in nonfirst_publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
