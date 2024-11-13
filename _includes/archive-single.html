@@ -48,14 +48,16 @@
           <!-- <em>Date:</em> {{ post.date | date: %Y" }}<br /> -->
           <em>Year:</em> {{ post.year }}<br />
         {% endif %}
-        {% if post.paperurl and not post.readurl %}
-        <p><a href="{{ post.paperurl }}"> Download Paper</a></p>
-        {% endif %}
         
-        {% if post.paperurl and post.readurl %}
+        {% if post.paperurl %}
+    <p><a href="{{ post.paperurl }}">Download Paper</a>{% if post.readurl %} | <a href="{{ post.readurl }}">Read More</a>{% endif %}</p>
+{% endif %}
+
+
+        <!-- {% if post.paperurl and post.readurl %}
         <p><a href="{{ post.paperurl }}"> Download Paper</a> | <a href="{{ post.readurl }}">Read More</a></p>
         {% endif %}
-      </p>
+      </p> -->
 
   </article>
 </div>

@@ -18,7 +18,7 @@ year: "2023"
 Journal: 'Research in Astronomy and Astrophysics'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://iopscience.iop.org/article/10.1088/1674-4527/accdc0'
-readurl: ''
+# readurl: ''
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
