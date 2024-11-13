@@ -1,23 +1,28 @@
 ---
-title: " Cross-Correlation Forecast of CSST Spectroscopic Galaxy and MeerKAT Neutral Hydrogen Intensity Mapping Surveys"
+title: "Photometric Redshift Estimation for CSST Survey with LSTM Neural Networks"
 authors:
-    - "Yuer Jiang"
+    - "Zhijian Luo"
+    - "Yicheng Li"
+    - "Junhao Lu"
+    - "Zhu Chen"
+    - "Liping Fu"
+    - "Shaohua Zhang"
+    - "Hubing Xiao"
+    - "Wei Du"
     - "Yan Gong"
-    - "Meng Zhang"
-    - "Qi Xiong"
+    - "Chenggang Shu"
+    - "Wenwen Ma"
+    - "Xian-Min Meng"
     - "Xingchen Zhou"
-    - "Furen Deng"
-    - "Xuelei Chen"
-    - "Yin-Zhe Ma"
-    - "Bin Yue"
+    - "Zuhui Fan"
 collection: publications
 category: nonfirst
 permalink: /publication/2009-10-01-paper-title-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-year: "2023"
-Journal: 'Research in Astronomy and Astrophysics'
+year: "2024"
+Journal: 'Monthly Notices of the Royal Astronomical Society'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://iopscience.iop.org/article/10.1088/1674-4527/accdc0'
+paperurl: 'https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stae2446/7845879'
 readurl: ''
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
