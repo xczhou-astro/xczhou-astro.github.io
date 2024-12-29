@@ -1,0 +1,49 @@
+<div class="about-container">
+    <div class="left-column">
+        <img src="your-photo.jpg" alt="Xingchen Zhou" class="profile-image">
+        <div class="contact-info">
+
+## Contact
+* <i class="fas fa-envelope"></i> [xczhou95@gmail.com](mailto:xczhou95@gmail.com)
+* <i class="fas fa-map-marker-alt"></i> NAOC, Beijing, China
+
+## Social Links
+* <i class="fab fa-github"></i> [GitHub](https://github.com/xczhou-astro)
+* <i class="ai ai-orcid"></i> [ORCID](https://orcid.org/0000-0001-7283-1100)
+        </div>
+    </div>
+
+    <div class="right-column">
+
+# About Me
+
+I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same pronunciation as “stars” in Chinese, which feels like destiny since I’ve always had a deep love for the night sky. From a young age, I was determined to study astronomy, and in the summer of 2023, I reached a major milestone by earning a PhD in Astrophysics from NAOC. My doctoral research focused on applying deep learning techniques to data analysis in photometric and spectroscopic surveys. I am now continuing this work as a research assistant in the CSST Scientific Application Group at NAOC.
+
+## Educations
+* **Ph.D. in Astrophysics** (2018 ~ 2023)  
+  NAOC, Beijing, China  
+  Thesis: "Applications of Deep Learning in Galaxy and Line Intensity Mapping Surveys"  
+  Advisor: Prof. Yan Gong
+
+* **B.S. in Physics** (2014 ~ 2018)  
+  Dalian University of Technology, Dalian, China
+
+## Employments
+* **Research assistant** (2024 ~ Present)  
+  NAOC, Beijing, China
+
+## Skills:
+### Programming:
+Python, TensorFlow, PyTorch (Skilled); C/C++ (Basic)
+
+### Languages:
+English(Proficient); Chinese(Native); Japanese(N2)
+
+
+## Research Interests
+* Machine learning and deep learning
+* Photometric and spectroscopic data analysis
+* Galaxy morphology
+* Line intensity mapping
+    </div>
+</div> 
