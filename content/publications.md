@@ -1,4 +1,3 @@
-# Publications
 
 ## First-author papers
 <div class="publication-item">

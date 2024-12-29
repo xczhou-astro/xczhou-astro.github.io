@@ -424,3 +424,18 @@ html {
 .loading-spinner.active {
     display: block;
 } 
+
+/* Style for the title link */
+nav h1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+nav h1 a:hover {
+    color: #228be6;
+}
+
+body.dark-mode nav h1 a:hover {
+    color: #66b3ff;
+} 

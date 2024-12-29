@@ -5,7 +5,8 @@ const urlsToCache = [
     '/content/about.md',
     '/content/publications.md',
     '/content/research.md',
-    '/content/personal.md'
+    '/content/personal.md',
+    '/figures/**/*'
 ];
 
 self.addEventListener('install', event => {

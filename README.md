@@ -10,6 +10,7 @@ Personal academic website built with HTML, CSS, and Markdown.
 - `content/`: Markdown files for each page
 - `styles.css`: Website styles
 - `figures/`: Images and figures
+- `sw.js`: Service worker for caching
 
 ## Local Development
 1. Clone the repository

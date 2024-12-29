@@ -1,4 +1,3 @@
-# Research
 
 ## Photometric Redshifts for Chinese Space Station Telescope
 

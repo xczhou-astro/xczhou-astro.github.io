@@ -1,4 +1,3 @@
-# Personal Interests
 
 ## Hobbies
 Share your personal interests, hobbies, and activities outside of academia.
