@@ -4,7 +4,7 @@
 
 We develop a redshift estimation pipeline using deep learning algorithms for Chines Space Station Telescope (CSST). This pipeline utilize multi-layer perceptron (MLP), convolutional neural network (CNN) and combination of these two networks, called Hybrid, to produce redshifts from photometric measurements, galaxy images, and combination of the two datasets. Some examples of galaxy images simulated based on HST:
 
-![Result](figures/photo-z_CSST/galaxy_images_photoz_CSST.jpg)
+![Result](figures/photo-z_CSST/galaxy_images_photoz_CSST.jpg){loading="lazy"}
 
 The architecure of our networks are as follows:
 

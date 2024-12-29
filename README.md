@@ -1,12 +1,15 @@
-# Academic Website
+# Xingchen Zhou's Academic Website
 
-My personal academic website built with HTML, CSS, and Markdown.
+Personal academic website built with HTML, CSS, and Markdown.
 
 ## Structure
-- `index.html`: Main page
+- `index.html`: Main page with about information
+- `publications.html`: List of publications
+- `research.html`: Research projects
+- `personal.html`: Personal interests
 - `content/`: Markdown files for each page
 - `styles.css`: Website styles
-- Images and other assets
+- `figures/`: Images and figures
 
 ## Local Development
 1. Clone the repository

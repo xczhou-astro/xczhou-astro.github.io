@@ -414,3 +414,13 @@ html {
     height: auto;
     object-fit: cover;
 } 
+
+.loading-spinner {
+    text-align: center;
+    padding: 20px;
+    display: none;
+}
+
+.loading-spinner.active {
+    display: block;
+} 
