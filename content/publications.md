@@ -6,7 +6,7 @@
 * **Zhou, X.**, Li, N., Zou, H. et al. (2024), Estimating Photometric Redshifts for Galaxies from the DESI Legacy Imaging Surveys with Bayesian Neural Networks Trained by DESI EDR, *MNRAS* Accepted
 <div class="publication-links">
 <a href="../publications/zhou2024estimating.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper2" class="pub-button pub-details">Read more</a>
+<a href="research.html#desi-photo-z" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 
@@ -16,7 +16,7 @@
 * **Zhou, X.**, Gong, Y., Zhang, X. et al. (2024), Accurately Estimating Redshifts from CSST Slitless Spectroscopic Survey using Deep Learning, *ApJ*, 977, 69
 <div class="publication-links">
 <a href="../publications/zhou2024accurately.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper1" class="pub-button pub-details">Read more</a>
+<a href="research.html#csst-spec-z" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 
@@ -25,7 +25,7 @@
 * **Zhou, X.** Gong, Y., Deng, F. et al. (2023), Foreground removal of CO intensity mapping using deep learning, *MNRAS*, 512, 278
 <div class="publication-links">
 <a href="../publications/zhou2023foreground.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper2" class="pub-button pub-details">Read more</a>
+<a href="research.html#co-foreground" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 
@@ -34,7 +34,7 @@
 * **Zhou, X.**, Gong, Y., Meng, X.-M. et al. (2022), Photometric Redshift Estimates using Bayesian Neural Networks in the CSST Survey, *RAA*, 22, 115017
 <div class="publication-links">
 <a href="../publications/zhou2022photometric.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper2" class="pub-button pub-details">Read more</a>
+<a href="research.html#csst-photo-z" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 
@@ -43,7 +43,7 @@
 * **Zhou, X.**, Gong, Y., Meng, X.-M. et al. (2022), Extracting photometric redshift from galaxy flux and image data using neural networks in the CSST survey, *MNRAS*, 512, 4593
 <div class="publication-links">
 <a href="../publications/zhou2022extracting.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper2" class="pub-button pub-details">Read more</a>
+<a href="research.html#csst-photo-z" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 
@@ -52,7 +52,7 @@
 * **Zhou, X.**, Gong, Y., Meng, X.-M. et al. (2022), Spectroscopic and Photometric Redshift Estimation by Neural Networks for the China Space Station Optical Survey (CSS-OS), *ApJ*, 909, 53
 <div class="publication-links">
 <a href="../publications/zhou2021spectroscopic.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
-<a href="research.html#paper2" class="pub-button pub-details">Read more</a>
+<a href="research.html#csst-photo-z" class="pub-button pub-details">Read more</a>
 </div>
 </div>
 

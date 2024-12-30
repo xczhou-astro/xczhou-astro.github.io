@@ -40,6 +40,28 @@
     </footer>
 
     <script>
+        // Function to scroll to anchor after content loads
+        function scrollToAnchor() {
+            const hash = window.location.hash;
+            if (hash) {
+                // Wait a bit for content to render
+                setTimeout(() => {
+                    const element = document.querySelector(hash);
+                    if (element) {
+                        // Get the element's position
+                        const elementPosition = element.getBoundingClientRect().top;
+                        // Add offset to show the title (100px above the anchor)
+                        const offsetPosition = elementPosition + window.pageYOffset - 100;
+                        
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                }, 100);
+            }
+        }
+
         // Function to load and render markdown content
         async function loadContent() {
             try {
@@ -53,6 +75,9 @@
                 });
 
                 document.getElementById('content').innerHTML = marked.parse(content);
+                
+                // Scroll to anchor after content is loaded
+                scrollToAnchor();
             } catch (error) {
                 console.error('Error loading content:', error);
                 document.getElementById('content').innerHTML = '<p>Error loading content</p>';
