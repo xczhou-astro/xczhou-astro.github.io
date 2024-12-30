@@ -22,7 +22,7 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 ## Educations
 * **Ph.D. in Astrophysics** (2018 ~ 2023)  
   NAOC, Beijing, China  
-  Thesis: "Applications of Deep Learning in Galaxy and Line Intensity Mapping Surveys"  
+  Dissertation: "Applications of Deep Learning in Galaxy and Line Intensity Mapping Surveys"  
   Advisor: Prof. Yan Gong  
 
 * **B.S. in Physics** (2014 ~ 2018)  

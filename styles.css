@@ -524,3 +524,55 @@ body.dark-mode nav h1 a:hover .first-name,
 body.dark-mode nav h1 a:hover .last-name {
     color: #fff;
 }
+
+/* GitHub icon styling */
+.fa-github {
+    font-size: 1.2em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.fa-github:hover {
+    color: #2b3137;
+}
+
+/* Dark mode adjustment */
+body.dark-mode .fa-github {
+    color: #e0e0e0;
+}
+
+body.dark-mode .fa-github:hover {
+    color: #ffffff;
+}
+
+/* Back to top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: opacity 0.3s, background-color 0.3s;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}
+
+body.dark-mode .back-to-top {
+    background-color: #666;
+}
+
+.back-to-top.show {
+    display: flex;
+}

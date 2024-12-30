@@ -9,7 +9,7 @@ We develop a redshift estimation pipeline using deep learning algorithms for Chi
     <img src="figures/photo-z_CSST/galaxy_images_photoz_CSST.jpg" 
          width="800" 
          alt="CSST galaxy images">
-    <p><em>Figure 1: CSST galaxy images simulated based on HST</em></p>
+    <p><em>Figure 1: CSST galaxy images simulated based on HST.</em></p>
 </div>
 
 The architecure of our networks are as follows:
@@ -18,7 +18,7 @@ The architecure of our networks are as follows:
     <img src="figures/photo-z_CSST/Architecture_for_photoz.jpg" 
          width="800" 
          alt="Network architecture">
-    <p><em>Figure 2: Architecture of networks for photometric redshift estimation</em></p>
+    <p><em>Figure 2: Architecture of networks for photometric redshift estimation.</em></p>
 </div>
 
 And for further improvement, transfer learning technique is employed for Hybrid network, leveraging the features tailored to photo-z. This network is referred as Hybrid transfer. The results for these four networks are as follows:
@@ -27,7 +27,7 @@ And for further improvement, transfer learning technique is employed for Hybrid 
     <img src="figures/photo-z_CSST/result_photoz_CSST.jpg" 
          width="800" 
          alt="Photo-z results">
-    <p><em>Figure 3: Results of photometric redshift estimation using different network architectures</em></p>
+    <p><em>Figure 3: Results of photometric redshift estimation using different network architectures.</em></p>
 </div>
 
 For consideration for uncertainties, we convert the networks to Bayesian neural networks. And the results are displayed as follow:
@@ -36,10 +36,10 @@ For consideration for uncertainties, we convert the networks to Bayesian neural 
     <img src="figures/photo-z_CSST/result_BNN_photoz_CSST.jpg" 
          width="800" 
          alt="BNN results">
-    <p><em>Figure 4: Results of Bayesian neural networks for photometric redshift estimation</em></p>
+    <p><em>Figure 4: Results of Bayesian neural networks for photometric redshift estimation.</em></p>
 </div>
 
-Associated codes are publicly available at [Github](https://github.com/xczhou-astro/CSST_photo_z_dl).
+Associated codes are publicly available at <a href="https://github.com/xczhou-astro/CSST_photo_z_dl" target="_blank"><i class="fab fa-github"></i></a>
 
 ## Foreground Removal for CO Line Intensity Mapping
 <h2 id="co-foreground"></h2>
@@ -50,7 +50,7 @@ We utilize U-Net to calibrate the deviation of power spectra induced by foregrou
     <img src="figures/CO_foreground_removal/foregrounds.jpg" 
          width="800" 
          alt="Foreground components">
-    <p><em>Figure 5: Different foreground components in CO intensity mapping</em></p>
+    <p><em>Figure 5: Different foreground components in CO intensity mapping.</em></p>
 </div>
 
 The calibration results by U-Net from different number of components PCA subtracts are displayed as follows:
@@ -59,7 +59,7 @@ The calibration results by U-Net from different number of components PCA subtrac
     <img src="figures/CO_foreground_removal/result_CO_foreground_removal.jpg" 
          width="800" 
          alt="Calibration results">
-    <p><em>Figure 6: Calibration results using U-Net for different PCA components</em></p>
+    <p><em>Figure 6: Calibration results using U-Net for different PCA components.</em></p>
 </div>
 
 ## Redshift Estimation for CSST Slitless Spectroscopic Survey
@@ -71,7 +71,7 @@ We build a 1d-convolutional neural network to estimate the spectroscopic redshif
     <img src="figures/slitless_spec-z_CSST/2d_spectra_CSST.jpg" 
          width="800" 
          alt="2D spectra">
-    <p><em>Figure 7: Examples of 2D slitless spectral images from CSST</em></p>
+    <p><em>Figure 7: Examples of 2D slitless spectral images from CSST.</em></p>
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
@@ -84,13 +84,13 @@ We build a 1d-convolutional neural network to estimate the spectroscopic redshif
 Results for spectroscopic redshifts from slitless spectra:
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <img src="figures/slitless_spec-z_CSST/result_spec-z.jpg" 
+    <img src="figures/slitless_spec-z_CSST/sls_results.png" 
          width="800" 
          alt="Spec-z results">
-    <p><em>Figure 9: Results of spectroscopic redshift estimation from slitless spectra</em></p>
+    <p><em>Figure 9: Results of spectroscopic redshift estimation from slitless spectra. Left: CNN backbone, Right: BNN.</em></p>
 </div>
 
-Relevant codes are publicly available at [Github](https://github.com/xczhou-astro/CSST_slitless_spectra)
+Relevant codes are publicly available at <a href="https://github.com/xczhou-astro/CSST_slitless_spectra" target="_blank"><i class="fab fa-github"></i></a>
 
 ## DESI Photo-z Catalogue
 <h2 id="desi-photo-z"></h2>
@@ -103,7 +103,7 @@ Results for these four groups:
     <img src="figures/DESI_photo-z/DESI_z_result.jpg" 
          width="800" 
          alt="DESI results">
-    <p><em>Figure 10: Results of photometric redshift estimation for different DESI target groups</em></p>
+    <p><em>Figure 10: Results of photometric redshift estimation for different DESI target groups.</em></p>
 </div>
 
 Additionally, UMAP is employed to investigate the deeper cause for the distinct behaviors for these groups:
@@ -112,7 +112,7 @@ Additionally, UMAP is employed to investigate the deeper cause for the distinct 
     <img src="figures/DESI_photo-z/DESI_EDR_feature_space.png" 
          width="800" 
          alt="UMAP visualization">
-    <p><em>Figure 11: UMAP visualization of feature space for different DESI target groups</em></p>
+    <p><em>Figure 11: UMAP visualization of feature space for different DESI target groups.</em></p>
 </div>
 
 Correlations exist between the reduced 2d positions and redshifts for BGS and LRG. Contrary, correlations are less pronounced for ELG. Interestingly, NON is divided to 2 parts, with one resembling the ELG, and the other one having good correlations. These two parts can be divided using z < 21.3. Finally, we create a new photo-z catalogue for BGS, LRG and NON with z < 21.3, considering the performance. This catalogue is publicly available at [here](https://pan.cstcloud.cn/web/share.html?hash=hUWwk1QTSjo). 
@@ -120,8 +120,16 @@ Correlations exist between the reduced 2d positions and redshifts for BGS and LR
 Note that our results are limited by the data size of DESI-EDR. With future releases, we plan to refine and update our catalogue.
 
 ## Preliminary Target Selection for MUltiplexed Spectroscopic Telescope (MUST)
+<h2 id="must-target-selection"></h2>
 
 With my knowledge in photometric and spectroscopic data analysis, I have been working on preliminary target selection for MUST, a stage-V spectroscopic instrument led by Tsinghua University. I am currently in charge of Emission Line Galaxies (ELG) and high-redshift Lyman Break Galaxies (LBG) under the observational conditions of MUST. Additionally, I calculate the galaxy bias for the capability of cosmological constraints. And currently, I am engaged in spectra simulation, using my knowledge from slitless spectra for CSST. 
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img src="figures/target_selection/Preliminary_Target_Selection.jpg" 
+         width="800" 
+         alt="Preliminary target selection">
+    <p><em>Figure 12: Preliminary target selection for MUST. Credit: arXiv: <a href="https://arxiv.org/abs/2411.07970">2411.07970</a></em></p>
+</div>
 
 ## galaxyGenius
 <h2 id="galaxygenius"></h2>
@@ -132,4 +140,4 @@ We build a Python wrapper to emulate galaxies, involving complete routine from p
 
 This project serves as the foundations for addressing other interesting works including deblending analysis and galaxy parameter estimations.  
 
-Our code is publicly available at [Github](https://github.com/xczhou-astro/galaxyGenius) and relevant paper is still drafting. 
+Our code is publicly available at <a href="https://github.com/xczhou-astro/galaxyGenius" target="_blank"><i class="fab fa-github"></i></a> and relevant paper is still drafting. 
