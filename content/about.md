@@ -10,6 +10,13 @@
 ## Social Links
 * <i class="fab fa-github"></i> [GitHub](https://github.com/xczhou-astro)
 * <i class="ai ai-orcid"></i> [ORCID](https://orcid.org/0000-0001-7283-1100)
+
+## Downloads
+
+
+* <i class="fas fa-file-pdf"></i> [Download CV](documents/CV.pdf)
+* <i class="fas fa-file-alt"></i> [Research Statement](documents/Research_Statement.pdf)
++ <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Last updated: December 2024</p>
         </div>
     </div>
 

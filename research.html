@@ -75,13 +75,34 @@
                 // Configure marked to allow HTML
                 marked.setOptions({
                     breaks: true,
-                    gfm: true
+                    gfm: true,
+                    headerIds: true,
+                    mangle: false,
+                    html: true
                 });
 
                 document.getElementById('content').innerHTML = marked.parse(content);
                 
                 // Scroll to anchor after content is loaded
                 scrollToAnchor();
+
+                // Add click handlers to navigation links after content is loaded
+                document.querySelectorAll('.quick-nav a').forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const targetId = link.getAttribute('href');
+                        const element = document.querySelector(targetId);
+                        if (element) {
+                            const elementPosition = element.getBoundingClientRect().top;
+                            const offsetPosition = elementPosition + window.pageYOffset - 100;
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                            history.pushState(null, '', targetId);
+                        }
+                    });
+                });
             } catch (error) {
                 console.error('Error loading content:', error);
                 document.getElementById('content').innerHTML = '<p>Error loading content</p>';
@@ -132,6 +153,61 @@
                 top: 0,
                 behavior: 'smooth'
             });
+        });
+
+        // Function to handle smooth scrolling to sections
+        document.querySelector('.quick-nav').addEventListener('click', (e) => {
+            if (e.target.tagName === 'A') {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const headerOffset = 80; // Adjust this value based on your header height
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Optionally update URL without scrolling
+                    history.pushState(null, '', targetId);
+                }
+            }
+        });
+
+        // Highlight current section in navigation
+        const sections = document.querySelectorAll('h2[id]');
+        const navLinks = document.querySelectorAll('.quick-nav a');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '-80px 0px -50% 0px', // Adjust based on your needs
+            threshold: 0
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Remove active class from all links
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    
+                    // Add active class to current section's link
+                    const activeId = entry.target.id;
+                    const activeLink = document.querySelector(`.quick-nav a[href="#${activeId}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Add observer to all sections
+        sections.forEach(section => {
+            section.classList.add('section-observed');
+            observer.observe(section);
         });
     </script>
 </body>

@@ -248,11 +248,16 @@ body.dark-mode .pub-website:hover {
 .about-container {
     display: flex;
     gap: 40px;
-    align-items: flex-start;
+    position: relative;
 }
 
 .left-column {
-    flex: 0 0 300px; /* Fixed width for left column */
+    flex: 0 0 250px;
+    position: sticky;
+    top: 20px;
+    /* height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto; */
 }
 
 .right-column {
@@ -278,7 +283,13 @@ body.dark-mode .contact-info {
     }
     
     .left-column {
-        flex: 0 0 100%;
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .quick-nav {
+        position: static;
     }
 } 
 
@@ -373,13 +384,13 @@ body.dark-mode .research-item {
 } 
 
 /* Add decorative section dividers */
-h2:not(:first-child) {
+h2:not(:first-child):not(h1 + h2) {
     margin-top: 32px;
     padding-top: 32px;
     border-top: 2px solid rgba(34, 139, 230, 0.1);
 }
 
-body.dark-mode h2:not(:first-child) {
+body.dark-mode h2:not(:first-child):not(h1 + h2) {
     border-top-color: rgba(102, 179, 255, 0.1);
 } 
 
@@ -639,4 +650,213 @@ body.dark-mode .contact-info .download-button {
 
 body.dark-mode .contact-info .download-button:hover {
     background-color: #4d9fff;
+}
+
+/* Style for download links */
+.contact-info a[href$=".pdf"],
+.contact-info a[href*="Research_Statement"] {
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a[href$=".pdf"]:hover,
+.contact-info a[href*="Research_Statement"]:hover {
+    color: #228be6;
+}
+
+body.dark-mode .contact-info a[href$=".pdf"]:hover,
+body.dark-mode .contact-info a[href*="Research_Statement"]:hover {
+    color: #66b3ff;
+}
+
+.contact-info a[href$=".pdf"] i,
+.contact-info a[href*="Research_Statement"] i {
+    margin-right: 8px;
+}
+
+/* Last updated text style */
+[style*="color: #666"] {
+    transition: color 0.3s;
+}
+
+body.dark-mode [style*="color: #666"] {
+    color: #999 !important;
+}
+
+/* Page title styling */
+.page-title {
+    margin-bottom: 40px;
+}
+
+.page-title h1 {
+    margin-bottom: 0;
+}
+
+/* Section dividers - modified */
+h2:not(:first-child) {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 2px solid rgba(34, 139, 230, 0.1);
+}
+
+/* First h2 after page-title should not have divider */
+.page-title + h2,
+.page-title + div + h2 {
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Research content styling */
+.figure-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.figure-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.figure-container .caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+}
+
+body.dark-mode .figure-container .caption {
+    color: #999;
+}
+
+.research-content p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+/* Quick navigation styling */
+.quick-nav {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 20px;
+}
+
+.quick-nav h2 {
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+    padding: 0;
+    border: none;
+}
+
+.quick-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-nav li {
+    margin-bottom: 12px;
+    display: block;
+}
+
+.quick-nav a {
+    color: #495057;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: -8px -12px;
+    background: none;
+}
+
+.quick-nav a:not(.pub-button) {
+    background: none;
+}
+
+.quick-nav a:not(.pub-button):hover {
+    background-size: 0;
+}
+
+.quick-nav a:hover {
+    color: #228be6;
+    padding-left: 17px;
+    background-color: rgba(34, 139, 230, 0.05);
+}
+
+/* Dark mode adjustments */
+body.dark-mode .quick-nav {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .quick-nav a {
+    color: #e0e0e0;
+}
+
+body.dark-mode .quick-nav a:hover {
+    color: #66b3ff;
+    background-color: rgba(102, 179, 255, 0.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quick-nav {
+        margin-bottom: 30px;
+    }
+    
+    .quick-nav li {
+        margin-bottom: 10px;
+    }
+    
+    .quick-nav a {
+        padding: 10px 15px;
+    }
+}
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+    .research-container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        position: static;
+        flex: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .main-content {
+        width: 100%;
+    }
+}
+
+/* Research page two-column layout */
+.research-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+.main-content {
+    flex: 1;
+    max-width: 900px;
 }
