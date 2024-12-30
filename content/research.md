@@ -140,4 +140,25 @@ We build a Python wrapper to emulate galaxies, involving complete routine from p
 
 This project serves as the foundations for addressing other interesting works including deblending analysis and galaxy parameter estimations.  
 
-Our code is publicly available at <a href="https://github.com/xczhou-astro/galaxyGenius" target="_blank"><i class="fab fa-github"></i></a> and relevant paper is still drafting. 
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img src="figures/galaxyGenius/SEDs.png" 
+         width="800" 
+         alt="Galaxy emulation">
+    <p><em>Figure 13: Generated SEDs of Subhalo 0, 31, and 253881 from TNG-100.</a></em></p>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img src="figures/galaxyGenius/CSST_combined.png" 
+         width="800" 
+         alt="Galaxy emulation">
+    <p><em>Figure 14: Generated galaxy images for CSST.</a></em></p>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <img src="figures/galaxyGenius/JWST_combined.png" 
+         width="800" 
+         alt="Galaxy emulation">
+    <p><em>Figure 15: Generated galaxy images for JWST NIRCam.</a></em></p>
+</div>
+
+Our code is publicly available at <a href="https://github.com/xczhou-astro/galaxyGenius" target="_blank"><i class="fab fa-github"></i></a>, and relevant paper is still drafting. 

@@ -47,3 +47,18 @@ English(Proficient); Chinese(Native); Japanese(N2)
 * Line intensity mapping
     </div>
 </div> 
+
+<!-- <div class="social-links">
+    <a href="https://github.com/xczhou-astro" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:xczhou@tsinghua.edu.cn"><i class="fas fa-envelope"></i></a>
+    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank"><i class="ai ai-google-scholar"></i></a>
+</div>
+
+<div class="download-buttons">
+    <a href="documents/CV.pdf" class="download-button" target="_blank">
+        <i class="fas fa-file-pdf"></i> Download CV
+    </a>
+    <a href="documents/Research_Statement.pdf" class="download-button" target="_blank">
+        <i class="fas fa-file-alt"></i> Research Statement
+    </a>
+</div>  -->
