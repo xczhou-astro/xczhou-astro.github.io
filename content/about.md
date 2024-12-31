@@ -32,6 +32,8 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
   Dissertation: "Applications of Deep Learning in Galaxy and Line Intensity Mapping Surveys"  
   Advisor: Prof. Yan Gong  
 
+  <br>
+
 * **B.S. in Physics** (2014 ~ 2018)  
   Dalian University of Technology, Dalian, China
 
@@ -42,6 +44,8 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 ## Skills:
 * **Programming:**
 Python, TensorFlow, PyTorch (Skilled); C/C++ (Basic)
+
+<br>
 
 * **Languages:**
 English(Proficient); Chinese(Native); Japanese(N2)

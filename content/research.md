@@ -12,7 +12,7 @@
         <li><a href="#co-foreground">2. Foreground Removal for CO Line Intensity Mapping</a></li>
         <li><a href="#csst-spec-z">3. Slitless Spectroscopic Redshifts for CSST</a></li>
         <li><a href="#desi-photo-z">4. DESI Photo-z Catalogue</a></li>
-        <li><a href="#must-target-selection">5. Preliminary MUST Target Selection</a></li>
+        <li><a href="#must-target-selection">5. MUST Target Selection</a></li>
         <li><a href="#galaxygenius">6. galaxyGenius</a></li>
       </ul>
     </div>
@@ -119,7 +119,7 @@ With my knowledge in photometric and spectroscopic data analysis, I have been wo
 
 <div class="figure-container">
   <img src="figures/target_selection/Preliminary_Target_Selection.jpg" width="800" alt="Preliminary target selection">
-  <p class="caption">Figure 12: Preliminary target selection for MUST. Credit: arXiv: [2411.07970](https://arxiv.org/abs/2411.07970)</p>
+  <p class="caption">Figure 12: Preliminary target selection for MUST. Credit: <a href="https://arxiv.org/abs/2411.07970", target="_blank">arXiv: 2411.07970</a></p>
 </div>
 
 ## galaxyGenius <a id="galaxygenius"></a>
