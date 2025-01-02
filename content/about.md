@@ -12,8 +12,8 @@
 * <i class="ai ai-orcid"></i> [ORCID](https://orcid.org/0000-0001-7283-1100)
 
 ## Downloads
-* <i class="fas fa-file-pdf"></i> <a href="/xczhou-astro.github.io/documents/Xingchen-Zhou-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
-* <i class="fas fa-file-alt"></i> <a href="/xczhou-astro.github.io/documents/Research_statement_Xingchen_Zhou.pdf" target="_blank" rel="noopener noreferrer">Research Statement</a>
+* <i class="fas fa-file-pdf"></i> <a href="/documents/Xingchen-Zhou-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+* <i class="fas fa-file-alt"></i> <a href="/documents/Research_statement_Xingchen_Zhou.pdf" target="_blank" rel="noopener noreferrer">Research Statement</a>
 + <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Last updated: December 2024</p>
         </div>
     </div>
