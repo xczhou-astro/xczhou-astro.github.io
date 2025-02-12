@@ -28,7 +28,7 @@ I am Xingchen Zhou (中文名：周兴晨). My name, Xingchen, shares the same p
 * **Ph.D. in Astrophysics** (2018 ~ 2023)  
   NAOC, Beijing, China  
   Dissertation: "Applications of Deep Learning in Galaxy and Line Intensity Mapping Surveys"  
-  Advisor: Prof. Yan Gong  
+  Supervisor: Prof. Yan Gong  
 
   <br>
 
