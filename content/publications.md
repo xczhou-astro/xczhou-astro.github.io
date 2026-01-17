@@ -1,12 +1,31 @@
 <div class="page-title">
   <h1>Publications</h1>
-  <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Last updated: December 2024</p>
+  <p style="font-size: 0.9em; color: #666; margin-top: 5px;">Last updated: January 2026</p>
 </div>
 
 ## First-author papers
+
 <div class="publication-item">
 
-* **Zhou, X.**, Li, N., Zou, H. et al. (2024), Estimating Photometric Redshifts for Galaxies from the DESI Legacy Imaging Surveys with Bayesian Neural Networks Trained by DESI EDR, *MNRAS* Accepted
+* **Zhou, X.**, Li, N., Jia, P. et al. (2026), AI Agent for Source Finding by SoFiA-2 for SKA-SDC2, *RAA*, 26, 035012
+<div class="publication-links">
+<a href="../publications/zhou2026aiagent.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
+<a href="research.html#aiagent" class="pub-button pub-details">Read more</a>
+</div>
+</div>
+
+<div class="publication-item">
+
+* **Zhou, X.**, Yang, H., Li, N. et al. (2025), GalaxyGenius: A Mock Galaxy Image Generator for Various Telescopes from Hydrodynamical Simulations, *A&A*, 700, 120Z
+<div class="publication-links">
+<a href="../publications/zhou2025galaxygenius.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
+<a href="research.html#galaxygenius" class="pub-button pub-details">Read more</a>
+</div>
+</div>
+
+<div class="publication-item">
+
+* **Zhou, X.**, Li, N., Zou, H. et al. (2024), Estimating Photometric Redshifts for Galaxies from the DESI Legacy Imaging Surveys with Bayesian Neural Networks Trained by DESI EDR, *MNRAS* 536, 2260
 <div class="publication-links">
 <a href="../publications/zhou2024estimating.pdf" class="pub-button pub-website" target="_blank" rel="noopener noreferrer">Download</a>
 <a href="research.html#desi-photo-z" class="pub-button pub-details">Read more</a>

@@ -72,5 +72,3 @@ I also like to play games, and perfer games with good stories and characters.
 
 Except for animes, movies and games. I derive great pleasure to study programming. I learned basics of C++ by myself using "C++ Primer" and "C++ Primer Plus" in order to enhance my programming skills in Python, since on some aspects, they are very similar. 
 Additionally, I am particularly interested in AI tools such as ChatGPT, Claude, and so on. Even this website is generated from scratch totally based on [Cursor](https://www.cursor.com/), an AI based code editor, without any prior knowledge of HTML, CSS, and JavaScript.
-Furthermore, I am actively learning GUI programming using [PyQt](https://www.riverbankcomputing.com/static/Docs/PyQt5/), [Pyside](https://wiki.qt.io/Qt_for_Python), and other packages from the AI tools.
-
